@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <link type="text/css" rel="stylesheet" href="css/style.css">
+        <title>StarWars</title>
+    </head>
+    <body>
+        <div id="conteudo">
+            <div id="menu">
+                <div id="menu_imagem">
+                </div>
+                <div id="container_menu_itens">
+                    <div class="menu_itens" id="menu_films">
+                        Filmes
+                    </div>
+                    <div class="menu_itens" id="menu_people">
+                        Personagens
+                    </div>
+                    <div class="menu_itens" id="menu_planets">
+                        Planetas
+                    </div>
+                    <div class="menu_itens" id="menu_species">
+                        Espécies
+                    </div>
+                    <div class="menu_itens" id="menu_starships">
+                        Naves Espaciais
+                    </div>
+                    <div class="menu_itens" id="menu_vehicles">
+                        Veículos
+                    </div> 
+                </div>
+            </div>
+            <div id="container_conteudo_api">
+                <div id="vidro">
+                    <div id="cont_conteudo">
+                        <div id="conteudo_films">
+                            <div class="container_pesquisa" id="pesquisa_films">
+                                <div class="input_pesquisa">
+                                    <div class="input">
+                                        <input onkeyup="buscarConteudoPesquisado(this.value, this.name);" name="films" type="text" class="input_item" placeholder="Pesquise um filme...">
+                                    </div>
+                                    <div class="botao_input">
+                                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="cont_conteudo_films">
+                                
+                            </div>
+                        </div>
+                        <div id="conteudo_people">
+                            <div class="container_pesquisa" id="pesquisa_people">
+                                <div class="input_pesquisa">
+                                    <div class="input">
+                                        <input onkeyup="buscarConteudoPesquisado(this.value, this.name);" name="people" type="text" class="input_item" placeholder="Pesquise um filme...">
+                                    </div>
+                                    <div class="botao_input">
+                                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="cont_conteudo_people">
+                                
+                            </div>
+                        </div>
+                        <div id="conteudo_planets">
+                            <div class="container_pesquisa" id="pesquisa_planets">
+                                <div class="input_pesquisa">
+                                    <div class="input">
+                                        <input onkeyup="buscarConteudoPesquisado(this.value, this.name);" name="planets" type="text" class="input_item" placeholder="Pesquise um filme...">
+                                    </div>
+                                    <div class="botao_input">
+                                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="cont_conteudo_planets">
+                                
+                            </div>
+                        </div>
+                        <div id="conteudo_species">
+                            <div class="container_pesquisa" id="pesquisa_species">
+                                <div class="input_pesquisa">
+                                    <div class="input">
+                                        <input onkeyup="buscarConteudoPesquisado(this.value, this.name);" name="species" type="text" class="input_item" placeholder="Pesquise um filme...">
+                                    </div>
+                                    <div class="botao_input">
+                                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="cont_conteudo_species">
+                                
+                            </div>
+                        </div>
+                        <div id="conteudo_starships">
+                            <div class="container_pesquisa" id="pesquisa_starships">
+                                <div class="input_pesquisa">
+                                    <div class="input">
+                                        <input onkeyup="buscarConteudoPesquisado(this.value, this.name);" name="starships" type="text" class="input_item" placeholder="Pesquise um filme...">
+                                    </div>
+                                    <div class="botao_input">
+                                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="cont_conteudo_starships">
+                                
+                            </div>
+                        </div>
+                        <div id="conteudo_vehicles">
+                            <div class="container_pesquisa" id="pesquisa_vehicles">
+                                <div class="input_pesquisa">
+                                    <div class="input">
+                                        <input onkeyup="buscarConteudoPesquisado(this.value, this.name);" name="vehicles" type="text" class="input_item" placeholder="Pesquise um filme...">
+                                    </div>
+                                    <div class="botao_input">
+                                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="cont_conteudo_vehicles">
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="js/script.js"></script>
+    </body>
+</html>

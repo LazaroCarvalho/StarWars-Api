@@ -1,0 +1,234 @@
+* {
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font-family: sans-serif;
+}
+
+#conteudo {
+    width: 1920px;
+    height: 936px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #fff;
+}
+
+#menu {
+    width: 450px;
+    height: 936px;
+    float: left;
+}
+
+#menu_imagem {
+    width: 250px;
+    height: 180px;
+    background-image: url("../imagens/starwars_image.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#container_menu_itens {
+    width: 300px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu_itens {
+    width: 100%;
+    height: 80px;
+    margin-top: 20px;
+    color: white;
+    border-radius: 30px;
+    font-size: 26px;
+    text-align: center;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+
+.menu_itens:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    transition: 1s;
+}
+
+#container_conteudo_api {
+    width: 1470px;
+    height: 936px;
+    float: left;
+    background-image: url(../imagens/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#vidro {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.6);
+    padding-top: 36px;
+    box-sizing: border-box;
+}
+
+#cont_conteudo {
+    width: 1250px;
+    height: 864px;
+    background-color: rgba(0,0,0,0.6);
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.container_pesquisa {
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    border-radius: 30px 0px 0px 0px;
+}
+
+.input_pesquisa {
+    width: 330px;
+    height: 60px;
+    float: right;
+    margin-right: 55px;
+}
+
+.input_item {
+    width: 250px;
+    height: 30px;
+    background-color: white;
+    margin-top: 20px;
+    float: left;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+.botao_input {
+    width: 36px;
+    height: 36px;
+    float: left;
+    background-image: url("../imagens/magnifier.png");
+    background-size: contain;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.botao_input:hover {
+    cursor: pointer;
+}
+
+#conteudo_films, #conteudo_people,
+#conteudo_planets, #conteudo_species, 
+#conteudo_starships, #conteudo_vehicles {
+    width: 100%;
+    height: 864px;
+    background-color: rgba(0,0,0,0.0);
+    border-radius: 30px;
+    display: none;
+    flex-direction: column;
+}
+
+#cont_conteudo_films, #cont_conteudo_people, 
+#cont_conteudo_planets, #cont_conteudo_species, 
+#cont_conteudo_starships, #cont_conteudo_vehicles {
+    width: 100%;
+    height: 784px;
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    background-color: rgba(0,0,0,0.0);
+    padding-top: 50px;
+    box-sizing: border-box;
+    border-radius: 30px;
+}
+
+.card_info {
+    width: 320px;
+    height: 320px;
+    margin-left: 75px;
+    margin-bottom: 50px;    
+    padding-top: 10px;
+    box-sizing: border-box;
+    border-radius: 30px;
+}
+
+.card_info:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.card_img{
+    width: 220px;
+    height: 210px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+.card_img_item {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card_titulo {
+    width: 100%;
+    height: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 22px;
+    text-align: center;
+    padding-top: 25px;
+    box-sizing: border-box;
+    color: white;
+}
+
+.card_descricao {
+    width: 100%;
+    height: 320px;
+    padding: 10px;
+    box-sizing: border-box;
+    display: none;
+    position: relative;
+    border-radius: 30px;
+}
+
+.name_title {
+    width: inherit;
+    height: 50px;
+    text-align: start;
+    color: white;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+.info .info4 {
+    width: inherit;
+    font-size: 16px;
+    color: white;
+    font-family: sans-serif;
+}
+
+.info {
+    height: 40px;
+    color: white;
+}
+
+.desc {
+    height: 150px;
+    overflow: auto;
+    color: white;
+}
+
+.mensagem_error {
+    text-align: center;
+    font-size: 32px;
+    color: white;
+    width: 800px;
+    height: 500px;
+}
